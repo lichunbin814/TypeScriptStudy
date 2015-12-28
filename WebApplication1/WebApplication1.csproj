@@ -120,7 +120,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
-    <Content Include="scripts\App\ValidatiorSingleFile.js" />
+    <Content Include="scripts\App\Test.js" />
     <Content Include="scripts\r.js" />
     <Content Include="scripts\require.js" />
     <Content Include="Web.config" />
@@ -154,7 +154,10 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="scripts\App\ValidatiorSingleFile.ts" />
+    <TypeScriptCompile Include="scripts\App\LettersOnlyValidator.ts" />
+    <TypeScriptCompile Include="scripts\App\Validation.ts" />
+    <TypeScriptCompile Include="scripts\App\Test.ts" />
+    <TypeScriptCompile Include="scripts\App\ZipValidator.ts" />
     <TypeScriptCompile Include="scripts\typings\requirejs\require.d.ts" />
   </ItemGroup>
   <PropertyGroup>
