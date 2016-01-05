@@ -11,5 +11,7 @@ define(["require", "exports", "./ZipValidator", "./LettersOnlyValidator"], funct
             console.log('"' + s + '" ' + (validators[name].isAcceptable(s) ? ' matches ' : ' does not match ') + name);
         }
     });
+    var polygons = Shapes.Polygons;
+    var sq = new polygons.Square(); // Same as 'new Shapes.Polygons.Square()'
 });
 //# sourceMappingURL=test.js.map

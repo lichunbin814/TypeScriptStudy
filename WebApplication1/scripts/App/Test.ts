@@ -17,3 +17,6 @@ strings.forEach(s => {
         console.log('"' + s + '" ' + (validators[name].isAcceptable(s) ? ' matches ' : ' does not match ') + name);
     }
 });
+
+import polygons = Shapes.Polygons;
+var sq = new polygons.Square(); // Same as 'new Shapes.Polygons.Square()'

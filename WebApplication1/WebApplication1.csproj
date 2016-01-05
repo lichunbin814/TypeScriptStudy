@@ -121,6 +121,7 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="scripts\App\LettersOnlyValidator.js" />
+    <Content Include="scripts\App\ModuleAlias.js" />
     <Content Include="scripts\App\test.js" />
     <Content Include="scripts\App\ZipValidator.js" />
     <Content Include="scripts\r.js" />
@@ -159,6 +160,7 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="scripts\App\LettersOnlyValidator.ts" />
+    <TypeScriptCompile Include="scripts\App\ModuleAlias.ts" />
     <TypeScriptCompile Include="scripts\App\test.ts" />
     <TypeScriptCompile Include="scripts\App\Validation.ts" />
     <TypeScriptCompile Include="scripts\App\ZipValidator.ts" />
