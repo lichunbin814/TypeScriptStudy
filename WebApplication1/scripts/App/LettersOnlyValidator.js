@@ -1,5 +1,4 @@
-var Validataion;
-(function (Validataion) {
+define(["require", "exports"], function (require, exports) {
     var lettersRegexp = /^[A-Za-z]+$/;
     var LettersOnlyValidator = (function () {
         function LettersOnlyValidator() {
@@ -9,6 +8,6 @@ var Validataion;
         };
         return LettersOnlyValidator;
     })();
-    Validataion.LettersOnlyValidator = LettersOnlyValidator;
-})(Validataion || (Validataion = {}));
+    exports.LettersOnlyValidator = LettersOnlyValidator;
+});
 //# sourceMappingURL=LettersOnlyValidator.js.map

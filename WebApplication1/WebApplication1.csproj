@@ -120,13 +120,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
-    <Content Include="scripts\App\Test.js" />
+    <Content Include="scripts\App\LettersOnlyValidator.js" />
+    <Content Include="scripts\App\test.js" />
+    <Content Include="scripts\App\ZipValidator.js" />
     <Content Include="scripts\r.js" />
     <Content Include="scripts\require.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -138,6 +141,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Views\Home\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -147,7 +151,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
+    <Folder Include="Content\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
@@ -155,8 +159,8 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="scripts\App\LettersOnlyValidator.ts" />
+    <TypeScriptCompile Include="scripts\App\test.ts" />
     <TypeScriptCompile Include="scripts\App\Validation.ts" />
-    <TypeScriptCompile Include="scripts\App\Test.ts" />
     <TypeScriptCompile Include="scripts\App\ZipValidator.ts" />
     <TypeScriptCompile Include="scripts\typings\requirejs\require.d.ts" />
   </ItemGroup>
