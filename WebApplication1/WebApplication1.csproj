@@ -161,6 +161,7 @@
   <ItemGroup>
     <TypeScriptCompile Include="scripts\App\LettersOnlyValidator.ts" />
     <TypeScriptCompile Include="scripts\App\ModuleAlias.ts" />
+    <TypeScriptCompile Include="scripts\App\D3.d.ts" />
     <TypeScriptCompile Include="scripts\App\test.ts" />
     <TypeScriptCompile Include="scripts\App\Validation.ts" />
     <TypeScriptCompile Include="scripts\App\ZipValidator.ts" />
