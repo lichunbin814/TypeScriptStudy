@@ -8,6 +8,6 @@ define(["require", "exports"], function (require, exports) {
         };
         return ZipCodeValidator;
     })();
-    exports.ZipCodeValidator = ZipCodeValidator;
+    return ZipCodeValidator;
 });
 //# sourceMappingURL=zipvalidator.js.map

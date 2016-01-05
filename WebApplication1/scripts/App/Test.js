@@ -3,8 +3,8 @@ define(["require", "exports", "./ZipValidator", "./LettersOnlyValidator"], funct
     var strings = ['Hello', '98052', '101'];
     // Validators to use
     var validators = {};
-    validators['ZIP code'] = new zip.ZipCodeValidator();
-    validators['Letters only'] = new letters.LettersOnlyValidator();
+    validators['ZIP code'] = new zip();
+    validators['Letters only'] = new letters();
     // Show whether each string passed each validator
     strings.forEach(function (s) {
         for (var name in validators) {

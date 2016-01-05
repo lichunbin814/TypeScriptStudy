@@ -8,6 +8,6 @@ define(["require", "exports"], function (require, exports) {
         };
         return LettersOnlyValidator;
     })();
-    exports.LettersOnlyValidator = LettersOnlyValidator;
+    return LettersOnlyValidator;
 });
 //# sourceMappingURL=LettersOnlyValidator.js.map
