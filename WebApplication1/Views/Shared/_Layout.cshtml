@@ -1,0 +1,15 @@
+﻿
+@{    
+    ViewBag.Title = "MasterLayout";
+}
+
+<h2>MasterLayout</h2>
+
+@RenderBody()
+
+<script>
+    var packageNames = ["test"];    
+</script>
+
+@RenderSection("Scripts",false)
+<script data-main="@Url.Content("~/scripts/App/requireJsConfig.js")" src="~/scripts/require.js"></script>

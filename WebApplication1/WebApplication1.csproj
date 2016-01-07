@@ -119,12 +119,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="scripts\App\LettersOnlyValidator.js" />
     <Content Include="scripts\App\ModuleAlias.js" />
-    <Content Include="scripts\App\test.js" />
+    <Content Include="scripts\App\requireJsConfig.js" />
+    <Content Include="scripts\App\Test2\main.js" />
+    <Content Include="scripts\App\Test\main.js" />
     <Content Include="scripts\App\TestAmbientExternalModules.js" />
     <Content Include="scripts\App\ZipValidator.js" />
+    <Content Include="scripts\bootstrap.js" />
+    <Content Include="scripts\bootstrap.min.js" />
+    <None Include="scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="scripts\jquery-1.10.2.js" />
+    <Content Include="scripts\jquery-1.10.2.min.js" />
+    <Content Include="scripts\modernizr-2.6.2.js" />
     <Content Include="scripts\r.js" />
     <Content Include="scripts\require.js" />
     <Content Include="Web.config" />
@@ -144,6 +156,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="scripts\jquery-1.10.2.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -153,7 +171,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
@@ -163,7 +180,9 @@
     <TypeScriptCompile Include="scripts\App\LettersOnlyValidator.ts" />
     <TypeScriptCompile Include="scripts\App\ModuleAlias.ts" />
     <TypeScriptCompile Include="scripts\App\D3.d.ts" />
-    <TypeScriptCompile Include="scripts\App\test.ts" />
+    <TypeScriptCompile Include="scripts\App\requireJsConfig.ts" />
+    <TypeScriptCompile Include="scripts\App\Test2\main.ts" />
+    <TypeScriptCompile Include="scripts\App\Test\main.ts" />
     <TypeScriptCompile Include="scripts\App\TestAmbientExternalModules.ts" />
     <TypeScriptCompile Include="scripts\App\Validation.ts" />
     <TypeScriptCompile Include="scripts\App\ZipValidator.ts" />
